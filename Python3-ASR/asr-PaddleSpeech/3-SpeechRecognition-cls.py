@@ -1,7 +1,5 @@
 from paddlespeech.cli.cls.infer import CLSExecutor
 
-# todo 未成功
-
 # 声音分类：适配多场景的开放领域声音分类工具，基于 AudioSet 数据集 527 个类别的声音分类模型。
 
 # 安装

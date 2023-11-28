@@ -1,7 +1,5 @@
 from paddlespeech.cli.vector import VectorExecutor
 
-# todo 未成功
-
 # 声纹提取：工业级声纹提取工具。
 
 # 安装

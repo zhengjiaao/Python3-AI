@@ -1,8 +1,6 @@
 from paddlespeech.cli.tts.infer import TTSExecutor
 # import paddle
 
-# todo 未成功
-
 # 语音合成：中文语音合成，输出 24k 采样率wav格式音频。
 
 # 安装

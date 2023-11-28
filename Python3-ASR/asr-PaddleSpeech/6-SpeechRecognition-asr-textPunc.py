@@ -15,6 +15,6 @@ from paddlespeech.cli.text.infer import TextExecutor
 asr_executor = ASRExecutor()
 text_executor = TextExecutor()
 
-text = asr_executor(input='input.wav', device=paddle.get_device())
+text = asr_executor(audio_file='zh.wav', device=paddle.get_device())
 result = text_executor(text=text, task='punc', model='ernie_linear_p3_wudao', device=paddle.get_device())
 print('Text Result: \n{}'.format(result))

@@ -1,8 +1,6 @@
 from paddlespeech.cli.text.infer import TextExecutor
 import paddle
 
-# todo 未成功
-
 # 文本标点恢复：一键恢复文本标点，可与ASR模型配合使用。
 
 # 安装
