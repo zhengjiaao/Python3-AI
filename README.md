@@ -6,6 +6,7 @@
 
 - [Python3-ASR 语音识别提取](./Python3-ASR)
 - [Python3-OCR 图文识别提取](./Python3-OCR)
+- [Python3-OD  对象(目标)检测](./Python3-OD)
 
 ## 基础环境
 
