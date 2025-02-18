@@ -5,6 +5,7 @@
 > 以下是已经完成的示例模块
 
 - [Python3-AI-DeepSeek AI大模型](./Python3-AI-DeepSeek)
+- [Python3-AI-Qwen 通义千问百炼AI大模型](./Python3-AI-Qwen)
 - [Python3-ASR 语音识别提取](./Python3-ASR)
 - [Python3-OCR 图文识别提取](./Python3-OCR)
 - [Python3-OD  对象(目标)检测](./Python3-OD)
