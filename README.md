@@ -14,7 +14,7 @@
 
 ### 安装Python和虚拟环境
 
-确保你已经安装了Python 3.8或更高版本。你可以从Python官方网站下载并安装。
+确保你已经安装了Python 3.8或更高版本。你可以从[Python官方](https://www.python.org/downloads/)网站下载并安装。
 
 1.创建虚拟环境
 
