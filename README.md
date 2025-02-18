@@ -36,6 +36,8 @@ python -m venv .venv
 ```shell
 cd example
 pip install -r requirements.txt
+# or 
+pip install package-name
 ```
 
 
