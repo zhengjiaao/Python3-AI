@@ -3,19 +3,46 @@
 - [PaddleNLP](https://github.com/PaddlePaddle/PaddleNLP)
 - [PaddleNLP 一键预测功能：Taskflow API](https://github.com/PaddlePaddle/PaddleNLP/blob/develop/docs/model_zoo/taskflow.md)
 
-## 环境依赖
+## 安装
 
-* python >= 3.7
-* paddlepaddle >= 2.5.1
-* 如需大模型功能，请使用 paddlepaddle-gpu >= 2.5.1
+#### 环境依赖
+
+* python >= 3.8 参考 [python 官网](https://www.python.org/downloads/)
+* paddlepaddle >= 2.6.0
+* 如需大模型功能，请使用 paddlepaddle-gpu >= 2.6.0
+
+#### 安装 PaddleNLP
+
+> 请注意，本安装过程假设您已安装好`paddlepaddle-gpu`或`paddlepaddle`（版本大于或等于3.0）。
+> 如果您尚未安装 PaddlePaddle，请参考 [飞桨官网](https://www.paddlepaddle.org.cn/) 进行安装。
+
+1. paddlepaddle 安装
 
 ```shell
-# 一定要注意paddlepaddle版本,按官方教程2.5.1去做适配的话，会出现识别效果很不理想情况。推荐 paddlepaddle<2.5 版本
+# Windows CPU pip 安装：
+python -m pip install paddlepaddle==2.6.2 -i https://www.paddlepaddle.org.cn/packages/stable/cpu/
+python -m pip install paddlepaddle==3.0.0.dev20250113 -i https://www.paddlepaddle.org.cn/packages/stable/cpu/
+```
+
+2. paddlenlp 安装
+
+```shell
+# 安装最新版本
+pip install --upgrade --pre paddlenlp
+# or
+pip install --upgrade paddlenlp -i https://pypi.org/simple
+```
+
+安装参考：
+
+```shell
+# 安装 paddlepaddle ，一定要注意paddlepaddle版本,按官方教程2.5.1去做适配的话，会出现识别效果很不理想情况。推荐 paddlepaddle<2.5 版本
 pip3 install paddlepaddle==2.5.1
-# 若使用大模型功能，例如：Question Generation（QG），即问题生成。
+# 安装 paddlepaddle-gpu，若使用大模型功能，例如：Question Generation（QG），即问题生成。
 pip3 install paddlepaddle-gpu==2.5.1
-# 安装nlp
-pip3 install paddlenlp
+# 安装 paddlenlp
+pip3 install paddlenlp==2.8.1
+
 ```
 
 ## 模型了解
